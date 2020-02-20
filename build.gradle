@@ -1,0 +1,12 @@
+apply plugin: "java"
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    annotationProcessor "com.google.guava:guava:18.0"
+    implementation "com.google.guava:guava:19.0"
+    implementation "org.springframework.boot:spring-boot-starter:2.0.3.RELEASE"
+}
